@@ -57,27 +57,6 @@ body {
 }
 
 
-/* ============================================================
-   AVISO DE DEMOSTRACIÓN
-   ============================================================ */
-
-.demo-notice {
-    width: 100%;
-
-    padding: 7px 10px;
-
-    text-align: center;
-
-    background: #fff4cf;
-
-    color: #806f38;
-
-    font-size: 10px;
-
-    font-weight: bold;
-
-    letter-spacing: 0.3px;
-}
 
 
 /* ============================================================
@@ -283,30 +262,6 @@ body {
 .bold {
     font-weight: bold;
 }
-
-
-/* ============================================================
-   MATERIAS
-   ============================================================ */
-
-.subjects {
-    margin-top: 15px;
-
-    font-size: 14px;
-
-    line-height: 1.45;
-}
-
-.subjects ul {
-    margin-top: 7px;
-
-    padding-left: 22px;
-}
-
-.subjects li {
-    margin-bottom: 4px;
-}
-
 
 /* ============================================================
    FOOTER
