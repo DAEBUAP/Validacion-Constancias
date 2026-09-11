@@ -1,0 +1,494 @@
+/* ============================================================
+   CONFIGURACIÓN GENERAL
+   ============================================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff;
+
+    color: #333333;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+
+/* ============================================================
+   ENCABEZADO
+   ============================================================ */
+
+.header {
+    width: 100%;
+
+    height: 92px;
+
+    background: #173e60;
+}
+
+.header-container {
+    width: min(1000px, calc(100% - 30px));
+
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    align-items: center;
+}
+
+.header-logo {
+    height: 68px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
+/* ============================================================
+   AVISO DE DEMOSTRACIÓN
+   ============================================================ */
+
+.demo-notice {
+    width: 100%;
+
+    padding: 7px 10px;
+
+    text-align: center;
+
+    background: #fff4cf;
+
+    color: #806f38;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    letter-spacing: 0.3px;
+}
+
+
+/* ============================================================
+   CONTENEDOR PRINCIPAL
+   ============================================================ */
+
+.main-container {
+    width: min(760px, calc(100% - 30px));
+
+    margin: 46px auto 65px;
+}
+
+
+/* ============================================================
+   TÍTULO
+   ============================================================ */
+
+.page-title {
+    margin: 0;
+
+    font-size: 24px;
+
+    font-weight: 400;
+
+    color: #222222;
+}
+
+
+/* ============================================================
+   LÍNEA AMARILLA
+   ============================================================ */
+
+.yellow-line {
+    width: 100%;
+
+    height: 5px;
+
+    margin-top: 15px;
+
+    margin-bottom: 20px;
+
+    background: #c9ce27;
+}
+
+
+/* ============================================================
+   TARJETAS
+   ============================================================ */
+
+.card {
+    width: 100%;
+
+    margin-bottom: 34px;
+
+    overflow: hidden;
+
+    border-radius: 4px;
+}
+
+
+/* ============================================================
+   TARJETA SELLO
+   ============================================================ */
+
+.digital-card {
+    border: 1px solid #c2e1ec;
+}
+
+.digital-header {
+    background: #dceef7;
+
+    color: #3f7294;
+}
+
+
+/* ============================================================
+   TARJETA DATOS
+   ============================================================ */
+
+.data-card {
+    border: 1px solid #d5e5ce;
+}
+
+.data-header {
+    background: #e2f0d9;
+
+    color: #4d7c4b;
+}
+
+
+/* ============================================================
+   CABECERAS
+   ============================================================ */
+
+.card-header {
+    padding: 18px 20px;
+
+    font-size: 21px;
+
+    font-weight: bold;
+}
+
+
+/* ============================================================
+   CONTENIDO DEL SELLO
+   ============================================================ */
+
+.card-content {
+    padding: 18px 20px 22px;
+}
+
+.field-label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+.digital-box {
+    width: 100%;
+
+    min-height: 42px;
+
+    padding: 10px;
+
+    border: 1px solid #cccccc;
+
+    border-radius: 4px;
+
+    background: #eeeeee;
+
+    color: #777777;
+
+    font-size: 12px;
+
+    line-height: 1.4;
+
+    word-break: break-all;
+}
+
+
+/* ============================================================
+   DATOS
+   ============================================================ */
+
+.data-content {
+    padding: 18px 20px 24px;
+}
+
+
+/* ============================================================
+   FOLIO
+   ============================================================ */
+
+.folio-title {
+    margin-bottom: 13px;
+
+    color: #173e6a;
+
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+.folio-number {
+    margin-bottom: 18px;
+
+    color: #173e6a;
+
+    font-size: 21px;
+
+    font-weight: bold;
+}
+
+
+/* ============================================================
+   FILAS DE INFORMACIÓN
+   ============================================================ */
+
+.data-row {
+    margin-bottom: 7px;
+
+    font-size: 14px;
+
+    line-height: 1.35;
+}
+
+.data-label {
+    display: block;
+
+    color: #444444;
+}
+
+.data-value {
+    display: block;
+
+    color: #333333;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* ============================================================
+   MATERIAS
+   ============================================================ */
+
+.subjects {
+    margin-top: 15px;
+
+    font-size: 14px;
+
+    line-height: 1.45;
+}
+
+.subjects ul {
+    margin-top: 7px;
+
+    padding-left: 22px;
+}
+
+.subjects li {
+    margin-bottom: 4px;
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+.footer {
+    width: min(1000px, calc(100% - 30px));
+
+    margin: 0 auto 35px;
+}
+
+.footer-line {
+    width: 100%;
+
+    height: 3px;
+
+    margin-bottom: 16px;
+
+    background: #173e60;
+}
+
+.footer-container {
+    min-height: 55px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.version {
+    color: #111111;
+
+    font-size: 10px;
+
+    font-weight: bold;
+}
+
+.footer-logo {
+    width: 70px;
+
+    height: 70px;
+
+    object-fit: contain;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 600px) {
+
+    .header {
+        height: 75px;
+    }
+
+    .header-container {
+        width: calc(100% - 20px);
+    }
+
+    .header-logo {
+        width: 190px;
+    }
+
+    .demo-notice {
+        font-size: 8px;
+
+        padding: 6px;
+    }
+
+    .main-container {
+        width: calc(100% - 18px);
+
+        margin-top: 34px;
+
+        margin-bottom: 50px;
+    }
+
+    .page-title {
+        font-size: 20px;
+    }
+
+    .yellow-line {
+        height: 4px;
+
+        margin-top: 12px;
+
+        margin-bottom: 17px;
+    }
+
+    .card {
+        margin-bottom: 27px;
+    }
+
+    .card-header {
+        padding: 15px 13px;
+
+        font-size: 18px;
+    }
+
+    .card-content,
+    .data-content {
+        padding: 14px 13px 18px;
+    }
+
+    .field-label {
+        font-size: 13px;
+    }
+
+    .digital-box {
+        font-size: 10px;
+    }
+
+    .folio-title {
+        font-size: 19px;
+
+        margin-bottom: 10px;
+    }
+
+    .folio-number {
+        font-size: 18px;
+
+        margin-bottom: 15px;
+    }
+
+    .data-row {
+        font-size: 13px;
+
+        margin-bottom: 8px;
+    }
+
+    .subjects {
+        font-size: 13px;
+    }
+
+    .footer {
+        width: calc(100% - 18px);
+
+        margin-bottom: 25px;
+    }
+
+    .footer-container {
+        min-height: 45px;
+    }
+
+    .version {
+        font-size: 8px;
+    }
+
+    .footer-logo {
+        width: 55px;
+
+        height: 55px;
+    }
+}
+
+
+/* ============================================================
+   CELULARES PEQUEÑOS
+   ============================================================ */
+
+@media (max-width: 380px) {
+
+    .header-logo {
+        width: 170px;
+    }
+
+    .main-container {
+        width: calc(100% - 14px);
+    }
+
+    .digital-box {
+        font-size: 9px;
+    }
+
+    .data-row {
+        font-size: 12px;
+    }
+
+    .subjects {
+        font-size: 12px;
+    }
+}
